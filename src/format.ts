@@ -1,4 +1,5 @@
 import registrations from "./data/registrations.json" with { type: "json" };
+import { getFlagEmoji } from "./flag.js";
 import type { FormattedRegistration, RegistrationEntry } from "./types.js";
 
 const entries = registrations as RegistrationEntry[];
@@ -74,6 +75,13 @@ export function formatRegistration(raw: string): FormattedRegistration | null {
   const base = { raw, formatted, prefix: key };
 
   return entry.type === "country"
-    ? { ...base, type: "country", country: entry.country, iso2: entry.iso2, iso3: entry.iso3 }
+    ? {
+        ...base,
+        type: "country",
+        country: entry.country,
+        iso2: entry.iso2,
+        iso3: entry.iso3,
+        flag: entry.iso2 ? getFlagEmoji(entry.iso2) : null,
+      }
     : { ...base, type: "organization", name: entry.name };
 }

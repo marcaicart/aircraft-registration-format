@@ -1,5 +1,8 @@
 import { describe, expect, it } from "vitest";
+import registrations from "./data/registrations.json" with { type: "json" };
+import { getFlagEmoji } from "./flag.js";
 import { formatRegistration } from "./format.js";
+import type { RegistrationEntry } from "./types.js";
 
 describe("formatRegistration", () => {
   it("formats a French registration and identifies the country", () => {
@@ -8,15 +11,18 @@ describe("formatRegistration", () => {
       formatted: "F-ABCD",
       country: "France",
       iso2: "FR",
+      flag: "🇫🇷",
     });
   });
 
-  it("identifies an international organization registration", () => {
-    expect(formatRegistration("4Yabc")).toMatchObject({
+  it("identifies an international organization registration, without a flag", () => {
+    const result = formatRegistration("4Yabc");
+    expect(result).toMatchObject({
       type: "organization",
       formatted: "4Y-ABC",
       name: "International Civil Aviation Organization",
     });
+    expect(result).not.toHaveProperty("flag");
   });
 
   it("is case-insensitive and trims whitespace", () => {
@@ -77,5 +83,17 @@ describe("formatRegistration", () => {
     it("formats the Faroe Islands' OY-H sub-prefix correctly (hyphen after 'OY', not after 'OYH')", () => {
       expect(formatRegistration("OYHSS")).toMatchObject({ formatted: "OY-HSS", country: "Faroe Islands" });
     });
+  });
+});
+
+describe("getFlagEmoji", () => {
+  it("produces a two-codepoint flag for every country in the dataset", () => {
+    const countries = (registrations as RegistrationEntry[]).filter((e) => e.type === "country");
+    expect(countries.length).toBeGreaterThan(0);
+    for (const entry of countries) {
+      expect(entry.iso2).not.toBeNull();
+      const flag = getFlagEmoji(entry.iso2 as string);
+      expect([...flag]).toHaveLength(2);
+    }
   });
 });

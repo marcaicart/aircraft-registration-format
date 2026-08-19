@@ -24,6 +24,6 @@ export type FormattedRegistration = {
   /** Nationality/organization prefix that matched, e.g. "F", "OO", "N", "4Y". */
   prefix: string;
 } & (
-  | { type: "country"; country: string; iso2: string | null; iso3: string | null }
+  | { type: "country"; country: string; iso2: string | null; iso3: string | null; flag: string | null }
   | { type: "organization"; name: string }
 );

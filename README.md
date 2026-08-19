@@ -22,6 +22,7 @@ formatRegistration("FABCD");
 //   country: "France",
 //   iso2: "FR",
 //   iso3: "FRA",
+//   flag: "🇫🇷",
 // }
 
 formatRegistration("n12345");
@@ -31,13 +32,35 @@ formatRegistration("not-a-registration"); // null
 
 formatRegistration("4Yabc");
 // { formatted: "4Y-ABC", type: "organization", name: "International Civil Aviation Organization" }
+// (no `flag` — organizations aren't tied to a single country)
 ```
 
 `formatRegistration` is case-insensitive, trims whitespace, and strips any
 existing punctuation before re-formatting, so already-hyphenated input is
 safe to pass in. The result is a discriminated union on `type`: `"country"`
-entries have `country`/`iso2`/`iso3`, `"organization"` entries (ICAO, UN,
-WMO — registrations that aren't tied to a single state) have `name` instead.
+entries have `country`/`iso2`/`iso3`/`flag`, `"organization"` entries (ICAO,
+UN, WMO — registrations that aren't tied to a single state) have `name`
+instead, with no flag.
+
+### Flags
+
+`flag` is a Unicode flag emoji computed from `iso2` — no image files, no
+network request, works offline. You can also call it directly:
+
+```ts
+import { getFlagEmoji } from "aircraft-registration-format";
+
+getFlagEmoji("FR"); // "🇫🇷"
+```
+
+This is purely mechanical (it maps letters to Unicode "regional indicator"
+code points), so it works for all 214 countries in the dataset, but two
+entries use codes that aren't in Unicode's officially guaranteed flag set —
+`XK` (Kosovo, a user-assigned code, not an official ISO 3166-1 entry) and
+`AN` (the former Netherlands Antilles, withdrawn from ISO 3166-1 in 2010).
+For those two, some fonts/platforms may render the literal letters instead
+of a flag. This is the same trade-off phone-number libraries make with the
+same trick.
 
 ## Data source
 
