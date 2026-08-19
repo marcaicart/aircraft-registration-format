@@ -25,6 +25,14 @@ describe("formatRegistration", () => {
     expect(result).not.toHaveProperty("flag");
   });
 
+  it("gives the United Nations entry its own flag, unlike other organizations", () => {
+    expect(formatRegistration("4Uabc")).toMatchObject({
+      type: "organization",
+      name: "United Nations",
+      flag: "🇺🇳",
+    });
+  });
+
   it("is case-insensitive and trims whitespace", () => {
     expect(formatRegistration("  gabcd  ")).toMatchObject({
       formatted: "G-ABCD",

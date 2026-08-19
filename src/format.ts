@@ -44,6 +44,16 @@ function resolveBPrefix(remainder: string): string {
 }
 
 /**
+ * Only the United Nations itself gets a flag emoji — "UN" is a real
+ * (if non-ISO) Unicode flag sequence some platforms render as the actual UN
+ * flag. ICAO and WMO are UN-affiliated agencies, not the UN, so reusing it
+ * for them would misrepresent them; they get no flag instead.
+ */
+const ORGANIZATION_FLAGS: Record<string, string> = {
+  "United Nations": getFlagEmoji("UN"),
+};
+
+/**
  * Parses and formats a raw aircraft registration/tail number, inserting the
  * hyphen after the ITU/ICAO nationality prefix and identifying the country
  * (or international organization) it belongs to.
@@ -83,5 +93,10 @@ export function formatRegistration(raw: string): FormattedRegistration | null {
         iso3: entry.iso3,
         flag: entry.iso2 ? getFlagEmoji(entry.iso2) : null,
       }
-    : { ...base, type: "organization", name: entry.name };
+    : {
+        ...base,
+        type: "organization",
+        name: entry.name,
+        ...(entry.name in ORGANIZATION_FLAGS ? { flag: ORGANIZATION_FLAGS[entry.name] } : {}),
+      };
 }

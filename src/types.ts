@@ -25,5 +25,5 @@ export type FormattedRegistration = {
   prefix: string;
 } & (
   | { type: "country"; country: string; iso2: string | null; iso3: string | null; flag: string | null }
-  | { type: "organization"; name: string }
+  | { type: "organization"; name: string; flag?: string }
 );
