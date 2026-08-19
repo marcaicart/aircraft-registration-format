@@ -1,5 +1,6 @@
 [
   {
+    "type": "country",
     "country": "Afghanistan",
     "iso2": "AF",
     "iso3": "AFG",
@@ -10,6 +11,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Albania",
     "iso2": "AL",
     "iso3": "ALB",
@@ -19,6 +21,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Andorra",
     "iso2": "AD",
     "iso3": "AND",
@@ -28,6 +31,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Angola",
     "iso2": "AO",
     "iso3": "AGO",
@@ -38,6 +42,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Anguilla",
     "iso2": "AI",
     "iso3": "AIA",
@@ -47,6 +52,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Antigua and Barbuda",
     "iso2": "AG",
     "iso3": "ATG",
@@ -56,6 +62,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Argentina",
     "iso2": "AR",
     "iso3": "ARG",
@@ -82,6 +89,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Armenia",
     "iso2": "AM",
     "iso3": "ARM",
@@ -91,6 +99,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Aruba",
     "iso2": "AW",
     "iso3": "ABW",
@@ -100,6 +109,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Australia",
     "iso2": "AU",
     "iso3": "AUS",
@@ -117,6 +127,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Austria",
     "iso2": "AT",
     "iso3": "AUT",
@@ -126,6 +137,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Azerbaijan",
     "iso2": "AZ",
     "iso3": "AZE",
@@ -136,6 +148,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Bahamas",
     "iso2": "BS",
     "iso3": "BHS",
@@ -145,6 +158,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Bahrain",
     "iso2": "BH",
     "iso3": "BHR",
@@ -154,6 +168,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Bangladesh",
     "iso2": "BD",
     "iso3": "BGD",
@@ -164,6 +179,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Barbados",
     "iso2": "BB",
     "iso3": "BRB",
@@ -173,6 +189,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Belarus",
     "iso2": "BY",
     "iso3": "BLR",
@@ -184,6 +201,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Belgium",
     "iso2": "BE",
     "iso3": "BEL",
@@ -199,6 +217,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Belize",
     "iso2": "BZ",
     "iso3": "BLZ",
@@ -208,6 +227,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Benin",
     "iso2": "BJ",
     "iso3": "BEN",
@@ -217,6 +237,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Bermuda",
     "iso2": "BM",
     "iso3": "BMU",
@@ -228,6 +249,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Bhutan",
     "iso2": "BT",
     "iso3": "BTN",
@@ -237,6 +259,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Bolivia",
     "iso2": "BO",
     "iso3": "BOL",
@@ -246,6 +269,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Bosnia and Herzegovina",
     "iso2": "BA",
     "iso3": "BIH",
@@ -255,6 +279,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Botswana",
     "iso2": "BW",
     "iso3": "BWA",
@@ -265,6 +290,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Brazil",
     "iso2": "BR",
     "iso3": "BRA",
@@ -287,6 +313,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "British Virgin Islands",
     "iso2": "VG",
     "iso3": "VGB",
@@ -296,6 +323,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Brunei",
     "iso2": "BN",
     "iso3": "BRN",
@@ -305,6 +333,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Bulgaria",
     "iso2": "BG",
     "iso3": "BGR",
@@ -314,6 +343,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Burkina Faso",
     "iso2": "BF",
     "iso3": "BFA",
@@ -323,6 +353,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Burundi",
     "iso2": "BI",
     "iso3": "BDI",
@@ -332,6 +363,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Cambodia",
     "iso2": "KH",
     "iso3": "KHM",
@@ -341,6 +373,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Cameroon",
     "iso2": "CM",
     "iso3": "CMR",
@@ -350,11 +383,11 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Canada",
     "iso2": "CA",
     "iso3": "CAN",
     "prefixes": [
-      "C",
       "C",
       "CF",
       "CG",
@@ -383,6 +416,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Cape Verde or Cabo Verde",
     "iso2": "CV",
     "iso3": "CPV",
@@ -392,6 +426,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Cayman Islands",
     "iso2": "KY",
     "iso3": "CYM",
@@ -401,6 +436,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Central African Republic",
     "iso2": "CF",
     "iso3": "CAF",
@@ -410,6 +446,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Chad",
     "iso2": "TD",
     "iso3": "TCD",
@@ -419,6 +456,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Chile",
     "iso2": "CL",
     "iso3": "CHL",
@@ -435,6 +473,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "China",
     "iso2": "CN",
     "iso3": "CHN",
@@ -461,6 +500,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Colombia",
     "iso2": "CO",
     "iso3": "COL",
@@ -472,6 +512,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Comoros",
     "iso2": "KM",
     "iso3": "COM",
@@ -481,6 +522,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Congo Democratic Republic",
     "iso2": "CD",
     "iso3": "COD",
@@ -495,6 +537,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Congo Republic",
     "iso2": "CG",
     "iso3": "COG",
@@ -504,6 +547,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Cook Islands",
     "iso2": "CK",
     "iso3": "COK",
@@ -513,6 +557,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Costa Rica",
     "iso2": "CR",
     "iso3": "CRI",
@@ -523,6 +568,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Croatia",
     "iso2": "HR",
     "iso3": "HRV",
@@ -532,6 +578,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Cuba",
     "iso2": "CU",
     "iso3": "CUB",
@@ -545,6 +592,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Cyprus",
     "iso2": "CY",
     "iso3": "CYP",
@@ -557,6 +605,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Czech Republic",
     "iso2": "CZ",
     "iso3": "CZE",
@@ -567,6 +616,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Denmark",
     "iso2": "DK",
     "iso3": "DNK",
@@ -584,6 +634,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Djibouti",
     "iso2": "DJ",
     "iso3": "DJI",
@@ -593,6 +644,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Dominica",
     "iso2": "DM",
     "iso3": "DMA",
@@ -602,6 +654,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Dominican Republic",
     "iso2": "DO",
     "iso3": "DOM",
@@ -611,6 +664,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Ecuador",
     "iso2": "EC",
     "iso3": "ECU",
@@ -621,6 +675,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Egypt",
     "iso2": "EG",
     "iso3": "EGY",
@@ -638,7 +693,6 @@
       "SSK",
       "SSL",
       "SSM",
-      "SSM",
       "SU",
       "6A",
       "6B"
@@ -646,6 +700,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "El Salvador",
     "iso2": "SV",
     "iso3": "SLV",
@@ -656,6 +711,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Equatorial Guinea",
     "iso2": "GQ",
     "iso3": "GNQ",
@@ -665,6 +721,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Eritrea",
     "iso2": "ER",
     "iso3": "ERI",
@@ -674,6 +731,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Estonia",
     "iso2": "EE",
     "iso3": "EST",
@@ -683,6 +741,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Ethiopia",
     "iso2": "ET",
     "iso3": "ETH",
@@ -694,6 +753,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Falk Islands",
     "iso2": "FK",
     "iso3": "FLK",
@@ -703,6 +763,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Faroe Islands",
     "iso2": "FO",
     "iso3": "FRO",
@@ -712,6 +773,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Fiji",
     "iso2": "FJ",
     "iso3": "FJI",
@@ -734,6 +796,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Finland",
     "iso2": "FI",
     "iso3": "FIN",
@@ -747,6 +810,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "France",
     "iso2": "FR",
     "iso3": "FRA",
@@ -768,6 +832,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Gabon",
     "iso2": "GA",
     "iso3": "GAB",
@@ -777,6 +842,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Gambia",
     "iso2": "GM",
     "iso3": "GMB",
@@ -786,6 +852,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Georgia",
     "iso2": "GE",
     "iso3": "GEO",
@@ -795,6 +862,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Germany",
     "iso2": "DE",
     "iso3": "DEU",
@@ -829,6 +897,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Ghana",
     "iso2": "GH",
     "iso3": "GHA",
@@ -838,6 +907,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Gibraltar",
     "iso2": "GI",
     "iso3": "GIB",
@@ -847,6 +917,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Greece",
     "iso2": "GR",
     "iso3": "GRC",
@@ -861,6 +932,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Greenland",
     "iso2": "GL",
     "iso3": "GRL",
@@ -870,6 +942,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Grenada",
     "iso2": "GD",
     "iso3": "GRD",
@@ -879,6 +952,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Guatemala",
     "iso2": "GT",
     "iso3": "GTM",
@@ -889,6 +963,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Guernsey",
     "iso2": "GG",
     "iso3": "GGY",
@@ -898,6 +973,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Guinea",
     "iso2": "GN",
     "iso3": "GIN",
@@ -907,6 +983,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Guinea-Bissau",
     "iso2": "GW",
     "iso3": "GNB",
@@ -916,6 +993,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Guyana",
     "iso2": "GY",
     "iso3": "GUY",
@@ -925,6 +1003,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Haiti",
     "iso2": "HT",
     "iso3": "HTI",
@@ -935,6 +1014,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Honduras",
     "iso2": "HN",
     "iso3": "HND",
@@ -945,6 +1025,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Hong Kong",
     "iso2": "HK",
     "iso3": "HKG",
@@ -956,6 +1037,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Hungary",
     "iso2": "HU",
     "iso3": "HUN",
@@ -966,6 +1048,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Iceland",
     "iso2": "IS",
     "iso3": "ISL",
@@ -975,6 +1058,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "India",
     "iso2": "IN",
     "iso3": "IND",
@@ -997,6 +1081,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Indonesia",
     "iso2": "ID",
     "iso3": "IDN",
@@ -1036,6 +1121,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Iran",
     "iso2": "IR",
     "iso3": "IRN",
@@ -1049,6 +1135,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Iraq",
     "iso2": "IQ",
     "iso3": "IRQ",
@@ -1059,6 +1146,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Ireland",
     "iso2": "IE",
     "iso3": "IRL",
@@ -1069,6 +1157,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Isle of Man",
     "iso2": "IM",
     "iso3": "IMN",
@@ -1078,6 +1167,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Israel",
     "iso2": "IL",
     "iso3": "ISR",
@@ -1088,6 +1178,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Italy",
     "iso2": "IT",
     "iso3": "ITA",
@@ -1097,6 +1188,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Ivory Coast or Cote d'Ivoire",
     "iso2": "CI",
     "iso3": "CIV",
@@ -1106,6 +1198,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Jamaica",
     "iso2": "JM",
     "iso3": "JAM",
@@ -1115,6 +1208,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Japan",
     "iso2": "JP",
     "iso3": "JPN",
@@ -1152,6 +1246,7 @@
     "noHyphen": true
   },
   {
+    "type": "country",
     "country": "Jordan",
     "iso2": "JO",
     "iso3": "JOR",
@@ -1161,6 +1256,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Kazakhstan",
     "iso2": "KZ",
     "iso3": "KAZ",
@@ -1173,6 +1269,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Kenya",
     "iso2": "KE",
     "iso3": "KEN",
@@ -1183,6 +1280,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Kiribati",
     "iso2": "KI",
     "iso3": "KIR",
@@ -1192,6 +1290,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Kosovo",
     "iso2": "XK",
     "iso3": "XKX",
@@ -1201,6 +1300,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Kuwait",
     "iso2": "KW",
     "iso3": "KWT",
@@ -1210,6 +1310,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Kyrgyzstan",
     "iso2": "KG",
     "iso3": "KGZ",
@@ -1219,6 +1320,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Laos",
     "iso2": "LA",
     "iso3": "LAO",
@@ -1229,6 +1331,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Latvia",
     "iso2": "LV",
     "iso3": "LVA",
@@ -1238,6 +1341,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Lebanon",
     "iso2": "LB",
     "iso3": "LBN",
@@ -1247,6 +1351,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Lesotho",
     "iso2": "LS",
     "iso3": "LSO",
@@ -1256,6 +1361,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Liberia",
     "iso2": "LR",
     "iso3": "LBR",
@@ -1270,6 +1376,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Libya",
     "iso2": "LY",
     "iso3": "LBY",
@@ -1279,6 +1386,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Liechtenstein",
     "iso2": "LI",
     "iso3": "LIE",
@@ -1291,6 +1399,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Lithuania",
     "iso2": "LT",
     "iso3": "LTU",
@@ -1300,6 +1409,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Macau or Macao",
     "iso2": "MO",
     "iso3": "MAC",
@@ -1309,6 +1419,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Macedonia",
     "iso2": "MK",
     "iso3": "MKD",
@@ -1318,6 +1429,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Madagascar",
     "iso2": "MG",
     "iso3": "MDG",
@@ -1329,6 +1441,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Malawi",
     "iso2": "MW",
     "iso3": "MWI",
@@ -1338,6 +1451,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Malaysia",
     "iso2": "MY",
     "iso3": "MYS",
@@ -1348,6 +1462,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Maldives",
     "iso2": "MV",
     "iso3": "MDV",
@@ -1357,6 +1472,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Mali",
     "iso2": "ML",
     "iso3": "MLI",
@@ -1366,6 +1482,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Malta",
     "iso2": "MT",
     "iso3": "MLT",
@@ -1375,6 +1492,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Marshall Islands",
     "iso2": "MH",
     "iso3": "MHL",
@@ -1384,6 +1502,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Mauritania",
     "iso2": "MR",
     "iso3": "MRT",
@@ -1393,6 +1512,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Mauritius",
     "iso2": "MU",
     "iso3": "MUS",
@@ -1402,6 +1522,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Mexico",
     "iso2": "MX",
     "iso3": "MEX",
@@ -1429,6 +1550,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Micronesia",
     "iso2": "FM",
     "iso3": "FSM",
@@ -1438,6 +1560,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Moldova",
     "iso2": "MD",
     "iso3": "MDA",
@@ -1447,6 +1570,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Monaco",
     "iso2": "MC",
     "iso3": "MCO",
@@ -1456,6 +1580,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Mongolia",
     "iso2": "MN",
     "iso3": "MNG",
@@ -1467,6 +1592,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Montenegro",
     "iso2": "ME",
     "iso3": "MNE",
@@ -1476,6 +1602,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Montserrat",
     "iso2": "MS",
     "iso3": "MSR",
@@ -1485,6 +1612,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Morocco",
     "iso2": "MA",
     "iso3": "MAR",
@@ -1499,6 +1627,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Mozambique",
     "iso2": "MZ",
     "iso3": "MOZ",
@@ -1509,6 +1638,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Myanmar or Burma",
     "iso2": "MM",
     "iso3": "MMR",
@@ -1519,6 +1649,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Namibia",
     "iso2": "NA",
     "iso3": "NAM",
@@ -1528,6 +1659,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Nauru",
     "iso2": "NR",
     "iso3": "NRU",
@@ -1537,6 +1669,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Nepal",
     "iso2": "NP",
     "iso3": "NPL",
@@ -1546,6 +1679,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Netherlands",
     "iso2": "NL",
     "iso3": "NLD",
@@ -1563,6 +1697,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Netherlands Antilles or Curacao",
     "iso2": "AN",
     "iso3": "ANT",
@@ -1572,6 +1707,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "New Zealand",
     "iso2": "NZ",
     "iso3": "NZL",
@@ -1583,6 +1719,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Nicaragua",
     "iso2": "NI",
     "iso3": "NIC",
@@ -1595,6 +1732,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Niger",
     "iso2": "NE",
     "iso3": "NER",
@@ -1604,6 +1742,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Nigeria",
     "iso2": "NG",
     "iso3": "NGA",
@@ -1614,6 +1753,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "North Korea",
     "iso2": "KP",
     "iso3": "PRK",
@@ -1628,6 +1768,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Norway",
     "iso2": "NO",
     "iso3": "NOR",
@@ -1653,6 +1794,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Oman",
     "iso2": "OM",
     "iso3": "OMN",
@@ -1662,6 +1804,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Pakistan",
     "iso2": "PK",
     "iso3": "PAK",
@@ -1678,6 +1821,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Palau",
     "iso2": "PW",
     "iso3": "PLW",
@@ -1687,6 +1831,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Palestinian Authority",
     "iso2": "PS",
     "iso3": "PSE",
@@ -1697,6 +1842,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Panama",
     "iso2": "PA",
     "iso3": "PAN",
@@ -1712,6 +1858,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Papua New Guinea",
     "iso2": "PG",
     "iso3": "PNG",
@@ -1721,6 +1868,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Paraguay",
     "iso2": "PY",
     "iso3": "PRY",
@@ -1730,6 +1878,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Peru",
     "iso2": "PE",
     "iso3": "PER",
@@ -1742,6 +1891,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Philippines",
     "iso2": "PH",
     "iso3": "PHL",
@@ -1763,6 +1913,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Poland",
     "iso2": "PL",
     "iso3": "POL",
@@ -1778,6 +1929,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Portugal",
     "iso2": "PT",
     "iso3": "PRT",
@@ -1791,6 +1943,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Qatar",
     "iso2": "QA",
     "iso3": "QAT",
@@ -1800,6 +1953,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Reunion Island",
     "iso2": "RE",
     "iso3": "REU",
@@ -1809,6 +1963,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Romania",
     "iso2": "RO",
     "iso3": "ROU",
@@ -1821,6 +1976,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Russia",
     "iso2": "RU",
     "iso3": "RUS",
@@ -1841,6 +1997,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Rwanda",
     "iso2": "RW",
     "iso3": "RWA",
@@ -1850,6 +2007,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Saint Helena",
     "iso2": "SH",
     "iso3": "SHN",
@@ -1859,6 +2017,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Saint Kitts and Nevis",
     "iso2": "KN",
     "iso3": "KNA",
@@ -1868,6 +2027,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Saint Lucia",
     "iso2": "LC",
     "iso3": "LCA",
@@ -1877,6 +2037,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Saint Vincent and the Grenadines",
     "iso2": "VC",
     "iso3": "VCT",
@@ -1886,6 +2047,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Samoa",
     "iso2": "WS",
     "iso3": "WSM",
@@ -1895,6 +2057,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "San Marino",
     "iso2": "SM",
     "iso3": "SMR",
@@ -1904,6 +2067,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Sao Tome and Principe",
     "iso2": "ST",
     "iso3": "STP",
@@ -1913,6 +2077,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Saudi Arabia",
     "iso2": "SA",
     "iso3": "SAU",
@@ -1924,6 +2089,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Senegal",
     "iso2": "SN",
     "iso3": "SEN",
@@ -1934,6 +2100,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Serbia",
     "iso2": "RS",
     "iso3": "SRB",
@@ -1944,6 +2111,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Seychelles",
     "iso2": "SC",
     "iso3": "SYC",
@@ -1953,6 +2121,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Sierra Leone",
     "iso2": "SL",
     "iso3": "SLE",
@@ -1962,6 +2131,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Singapore",
     "iso2": "SG",
     "iso3": "SGP",
@@ -1972,6 +2142,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Slovakia",
     "iso2": "SK",
     "iso3": "SVK",
@@ -1981,6 +2152,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Slovenia",
     "iso2": "SI",
     "iso3": "SVN",
@@ -1990,6 +2162,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Solomon Islands",
     "iso2": "SB",
     "iso3": "SLB",
@@ -1999,6 +2172,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Somalia",
     "iso2": "SO",
     "iso3": "SOM",
@@ -2009,6 +2183,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "South Africa",
     "iso2": "ZA",
     "iso3": "ZAF",
@@ -2022,6 +2197,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "South Sudan",
     "iso2": "SS",
     "iso3": "SSD",
@@ -2031,6 +2207,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Spain",
     "iso2": "ES",
     "iso3": "ESP",
@@ -2050,6 +2227,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Sri Lanka",
     "iso2": "LK",
     "iso3": "LKA",
@@ -2062,6 +2240,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Sudan",
     "iso2": "SD",
     "iso3": "SDN",
@@ -2111,6 +2290,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Suriname",
     "iso2": "SR",
     "iso3": "SUR",
@@ -2120,6 +2300,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Swaziland or Eswatini",
     "iso2": "SZ",
     "iso3": "SWZ",
@@ -2142,6 +2323,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Sweden",
     "iso2": "SE",
     "iso3": "SWE",
@@ -2165,6 +2347,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Switzerland",
     "iso2": "CH",
     "iso3": "CHE",
@@ -2175,6 +2358,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Syria",
     "iso2": "SY",
     "iso3": "SYR",
@@ -2185,6 +2369,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Tahiti or French Polynesia",
     "iso2": "PF",
     "iso3": "PYF",
@@ -2194,6 +2379,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Taiwan",
     "iso2": "TW",
     "iso3": "TWN",
@@ -2209,6 +2395,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Tajikistan",
     "iso2": "TJ",
     "iso3": "TJK",
@@ -2218,6 +2405,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Tanzania",
     "iso2": "TZ",
     "iso3": "TZA",
@@ -2228,6 +2416,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Thailand",
     "iso2": "TH",
     "iso3": "THA",
@@ -2238,6 +2427,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Timor–Leste",
     "iso2": "TL",
     "iso3": "TLS",
@@ -2247,6 +2437,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Togo",
     "iso2": "TG",
     "iso3": "TGO",
@@ -2256,6 +2447,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Tonga",
     "iso2": "TO",
     "iso3": "TON",
@@ -2265,6 +2457,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Trinidad and Tobago",
     "iso2": "TT",
     "iso3": "TTO",
@@ -2275,6 +2468,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Tunisia",
     "iso2": "TN",
     "iso3": "TUN",
@@ -2285,6 +2479,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Turkey",
     "iso2": "TR",
     "iso3": "TUR",
@@ -2297,6 +2492,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Turkmenistan",
     "iso2": "TM",
     "iso3": "TKM",
@@ -2306,6 +2502,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Turks and Caicos Islands",
     "iso2": "TC",
     "iso3": "TCA",
@@ -2315,6 +2512,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Tuvalu",
     "iso2": "TV",
     "iso3": "TUV",
@@ -2324,6 +2522,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Uganda",
     "iso2": "UG",
     "iso3": "UGA",
@@ -2333,6 +2532,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Ukraine",
     "iso2": "UA",
     "iso3": "UKR",
@@ -2353,6 +2553,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "United Arab Emirates",
     "iso2": "AE",
     "iso3": "ARE",
@@ -2362,6 +2563,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "United Kingdom",
     "iso2": "GB",
     "iso3": "GBR",
@@ -2388,6 +2590,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "United States",
     "iso2": "US",
     "iso3": "USA",
@@ -2411,6 +2614,7 @@
     "noHyphen": true
   },
   {
+    "type": "country",
     "country": "Uruguay",
     "iso2": "UY",
     "iso3": "URY",
@@ -2422,6 +2626,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Uzbekistan",
     "iso2": "UZ",
     "iso3": "UZB",
@@ -2434,6 +2639,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Vanuatu",
     "iso2": "VU",
     "iso3": "VUT",
@@ -2443,6 +2649,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Vatican City",
     "iso2": "VA",
     "iso3": "VAT",
@@ -2452,6 +2659,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Venezuela",
     "iso2": "VE",
     "iso3": "VEN",
@@ -2465,6 +2673,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Vietnam",
     "iso2": "VN",
     "iso3": "VNM",
@@ -2475,6 +2684,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Yemen",
     "iso2": "YE",
     "iso3": "YEM",
@@ -2484,6 +2694,7 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Zambia",
     "iso2": "ZM",
     "iso3": "ZMB",
@@ -2494,12 +2705,37 @@
     "noHyphen": false
   },
   {
+    "type": "country",
     "country": "Zimbabwe",
     "iso2": "ZW",
     "iso3": "ZWE",
     "prefixes": [
       "Z",
       "Z2"
+    ],
+    "noHyphen": false
+  },
+  {
+    "type": "organization",
+    "name": "International Civil Aviation Organization",
+    "prefixes": [
+      "4Y"
+    ],
+    "noHyphen": false
+  },
+  {
+    "type": "organization",
+    "name": "United Nations",
+    "prefixes": [
+      "4U"
+    ],
+    "noHyphen": false
+  },
+  {
+    "type": "organization",
+    "name": "World Meteorological Organization",
+    "prefixes": [
+      "C7"
     ],
     "noHyphen": false
   }

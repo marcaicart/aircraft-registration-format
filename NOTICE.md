@@ -1,7 +1,8 @@
 # Third-party data
 
-The nationality-prefix dataset in `data/flydenity-countries.csv` (and the
-generated `src/data/registrations.json`) is derived from
+The nationality-prefix dataset in `data/flydenity-countries.csv` and
+`data/flydenity-organizations.csv` (and the generated
+`src/data/registrations.json`) is derived from
 [flydenity](https://github.com/Collen-Roller/flydenity) by Collen Roller,
 used under the MIT License:
 
