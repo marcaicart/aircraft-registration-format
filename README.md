@@ -30,10 +30,6 @@ formatRegistration("n12345");
 
 formatRegistration("not-a-registration"); // null
 
-formatRegistration("4Yabc");
-// { formatted: "4Y-ABC", type: "organization", name: "International Civil Aviation Organization" }
-// (no `flag` — ICAO isn't a country, and isn't the UN itself)
-
 formatRegistration("4Uabc");
 // { formatted: "4U-ABC", type: "organization", name: "United Nations", flag: "🇺🇳" }
 ```
