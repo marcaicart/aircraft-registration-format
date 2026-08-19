@@ -1,0 +1,49 @@
+{
+  "name": "aircraft-registration-format",
+  "version": "1.0.0",
+  "description": "Format and identify aircraft registration numbers by ITU/ICAO nationality prefix",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsup",
+    "generate:data": "tsx scripts/generate-data.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcaicart/aircraft-registration-format.git"
+  },
+  "keywords": [
+    "aircraft",
+    "registration",
+    "tail-number",
+    "icao",
+    "itu",
+    "aviation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcaicart/aircraft-registration-format/issues"
+  },
+  "homepage": "https://github.com/marcaicart/aircraft-registration-format#readme",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "csv-parse": "^7.0.2",
+    "tsup": "^8.5.1",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.11"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
+}
