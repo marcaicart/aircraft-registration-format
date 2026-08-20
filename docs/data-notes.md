@@ -34,7 +34,14 @@ an authoritative registry.
 - The "no hyphen" convention list (`src/data/registrations.json`'s
   `noHyphen` flag) is hand-curated and currently only covers the US and
   Japan — corrections and additions welcome.
-- Ambiguous or malformed input returns `null` rather than guessing.
+- Ambiguous or malformed input returns `null` rather than guessing. This is
+  enforced by `MAX_SUFFIX_LENGTH` in `src/format.ts`: a match is only
+  accepted if what follows the prefix is no longer than 5 characters, the
+  longest real suffix pattern in the whole dataset (Armenia's `10000-99999`).
+  Without this, arbitrary text starting with a valid single-letter prefix —
+  e.g. `"not-a-registration"` normalizing to `"NOTAREGISTRATION"`, which
+  starts with the US's `N` — would be accepted and formatted as if it were a
+  real registration (fixed in 0.1.2, see CHANGELOG/git history).
 - `getFlagEmoji` is purely mechanical (letters → Unicode regional
   indicators), so it works for all 214 countries in the dataset, but two
   entries use codes outside Unicode's officially guaranteed flag set: `XK`

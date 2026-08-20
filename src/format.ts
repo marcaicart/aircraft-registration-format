@@ -14,6 +14,15 @@ const candidates: Candidate[] = entries.flatMap((entry) =>
   entry.prefixes.map((prefix) => ({ prefix, matchKey: matchKey(prefix), entry })),
 );
 
+/**
+ * The longest suffix any entry's actual registration format allows, per the
+ * source dataset (e.g. Armenia's "10000-99999" is 5 digits). A remainder
+ * longer than this can't be a real registration under any known scheme, so
+ * we reject the match instead of silently formatting arbitrary text — see
+ * docs/data-notes.md.
+ */
+const MAX_SUFFIX_LENGTH = 5;
+
 function label(entry: RegistrationEntry): string {
   return entry.type === "country" ? entry.country : entry.name;
 }
@@ -63,7 +72,9 @@ export function formatRegistration(raw: string): FormattedRegistration | null {
   const normalized = raw.trim().toUpperCase().replace(/[^A-Z0-9]/g, "");
   if (!normalized) return null;
 
-  const matches = candidates.filter((c) => normalized.startsWith(c.matchKey));
+  const matches = candidates.filter(
+    (c) => normalized.startsWith(c.matchKey) && normalized.length - c.matchKey.length <= MAX_SUFFIX_LENGTH,
+  );
   if (matches.length === 0) return null;
 
   const maxLen = Math.max(...matches.map((c) => c.matchKey.length));

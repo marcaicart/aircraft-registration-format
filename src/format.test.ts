@@ -66,6 +66,12 @@ describe("formatRegistration", () => {
     expect(formatRegistration("   ")).toBeNull();
   });
 
+  it("returns null for text that merely starts with a valid prefix, instead of guessing (regression)", () => {
+    // "not-a-registration" normalizes to "NOTAREGISTRATION" — starts with the
+    // valid US prefix "N", but no real registration has a 15-character suffix.
+    expect(formatRegistration("not-a-registration")).toBeNull();
+  });
+
   describe("ambiguous shared prefixes", () => {
     it("resolves HB to Switzerland, not Liechtenstein", () => {
       expect(formatRegistration("HBZOP")).toMatchObject({ country: "Switzerland" });
