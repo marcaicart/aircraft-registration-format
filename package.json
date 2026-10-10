@@ -1,6 +1,6 @@
 {
   "name": "aircraft-registration-format",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Format and identify aircraft registration numbers by ITU/ICAO nationality prefix",
   "scripts": {
     "test": "vitest run",

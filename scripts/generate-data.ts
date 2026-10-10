@@ -15,6 +15,25 @@ const NO_HYPHEN_ISO2 = new Set([
   "JP", // JA1234
 ]);
 
+// Countries whose real nationality mark is shorter than the ITU blocks the
+// source lists next to it (Germany: mark "D", blocks DA–DR). The blocks are
+// allocation ranges, not what is painted on the aircraft, and "longest prefix
+// wins" would otherwise turn D-AGWI into DA-GWI. For these countries every
+// prefix that merely extends the mark is dropped. Each mark is verified
+// against ICAO Annex 7 / Wikipedia's registration-prefix list — see
+// docs/data-notes.md before adding to this (Russia's "R" and Eswatini's "3D"
+// are NOT marks, so they must not be here).
+const NATIONALITY_MARK: Record<string, string> = {
+  Germany: "D",
+  Canada: "C", // C-F / C-G / C-I
+  Zimbabwe: "Z", // Z-xxx; Z2 is an ITU block
+};
+
+// Prefixes the source lacks but that are in real use (ITU allots PPA–PYZ to Brazil).
+const EXTRA_PREFIXES: Record<string, string[]> = {
+  Brazil: ["PU"],
+};
+
 function parsePyList(value: string): string[] {
   return JSON.parse(value.replace(/'/g, '"'));
 }
@@ -55,6 +74,12 @@ for (const row of countryRows) {
     prefixes: [...new Set(prefixes)],
     noHyphen: iso2 ? NO_HYPHEN_ISO2.has(iso2) : false,
   });
+}
+
+for (const entry of byCountry.values()) {
+  const mark = NATIONALITY_MARK[entry.country];
+  if (mark) entry.prefixes = entry.prefixes.filter((p) => p === mark || !p.startsWith(mark));
+  for (const p of EXTRA_PREFIXES[entry.country] ?? []) if (!entry.prefixes.includes(p)) entry.prefixes.push(p);
 }
 
 const countryEntries = [...byCountry.values()].sort((a, b) => a.country.localeCompare(b.country));

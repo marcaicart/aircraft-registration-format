@@ -308,7 +308,8 @@
       "ZY",
       "ZZ",
       "PR",
-      "PT"
+      "PT",
+      "PU"
     ],
     "noHyphen": false
   },
@@ -389,13 +390,6 @@
     "iso3": "CAN",
     "prefixes": [
       "C",
-      "CF",
-      "CG",
-      "CH",
-      "CJ",
-      "CK",
-      "CY",
-      "CZ",
       "VA",
       "VB",
       "VC",
@@ -868,23 +862,6 @@
     "iso3": "DEU",
     "prefixes": [
       "D",
-      "DA",
-      "DB",
-      "DC",
-      "DD",
-      "DE",
-      "DF",
-      "DG",
-      "DH",
-      "DI",
-      "DJ",
-      "DK",
-      "DL",
-      "DM",
-      "DN",
-      "DO",
-      "DP",
-      "DR",
       "Y2",
       "Y3",
       "Y4",
@@ -2710,8 +2687,7 @@
     "iso2": "ZW",
     "iso3": "ZWE",
     "prefixes": [
-      "Z",
-      "Z2"
+      "Z"
     ],
     "noHyphen": false
   },

@@ -26,6 +26,42 @@ If you register or spot an aircraft that contradicts one of the arbitrary
 picks above, open an issue/PR — these are best-effort, not verified against
 an authoritative registry.
 
+## Nationality marks vs ITU blocks (fixed in 0.1.3)
+
+The source data lists, per country, the ITU *allocation blocks* (Germany:
+`D, DA, DB … DR`), not only the mark actually painted on aircraft (`D`).
+Since matching takes the longest prefix, `DAGWI` became `DA-GWI` instead of
+`D-AGWI`; likewise Canada's `CFMDG` became `CF-MDG` instead of `C-FMDG`.
+
+**Decision:** keep the algorithm (longest prefix wins) and fix the data. In
+`scripts/generate-data.ts`, `NATIONALITY_MARK` names the verified real mark
+for a country and drops the longer prefixes that merely extend it. Applied to
+Germany (`D`), Canada (`C`) and Zimbabwe (`Z`; `Z2` dropped). It is a
+curated allow-list, not a blanket rule, because a short prefix is not always
+the real mark (see below). Also added Brazil's missing `PU` (ITU block
+PPA–PYZ; in real use for light aircraft).
+
+Audited by listing every prefix that is a proper prefix of another one. Marks
+checked against ICAO Annex 7 / Wikipedia "List of aircraft registration prefixes".
+
+**Reviewed and deliberately left unchanged**
+
+| Case | Why |
+|---|---|
+| Russia `R` vs `RA`/`RF` | Real marks are `RA` and `RF`; `R` is the block. Collapsing would break `RA-12345`. |
+| Eswatini `3D` vs `3DA…3DM` | Current mark is `3DC` (3DC-AAA), so collapsing to `3D` would break it. Fiji's `3DN–3DZ` blocks still win for `3DN…`–`3DZ…`; Fiji's real mark is `DQ` — unverified whether Eswatini uses those letters, so not changed. |
+| Liechtenstein `HB` vs `HB0/HB3Y/HBL` | Liechtenstein shares `HB`; whether `HB-L…` is a real Liechtenstein sub-series could not be verified. Unchanged. |
+| Taiwan `B` vs `BM…BX` | Taiwan marks are `B`+5 digits, so the letter blocks never match a real registration. Harmless. |
+| Netherlands `PA–PI`, Spain `EA–EH`, France `HW…TX`, UK `ZB…ZQ`, US `AA–AL/K/W`, Japan `JB–JS`, Australia `VI…VZ`, Brazil `PQ/PS/PV…` | Not nested under the real mark, so they don't affect real registrations (US/Japan are `noHyphen` anyway). |
+| Hong Kong `B-H/B-K/B-L`, Macau `B-M`, France `F-OD/F-OH`, UK territories `VP-x/VQ-x` | Genuine sub-series with hyphen; correct. |
+
+**Known open doubts**
+
+- `Z-WPA` (Zimbabwe) is read as Brazil `ZW-PA`: Brazil's `ZV–ZZ` blocks collide with Zimbabwe's single `Z`. Not resolvable from the string alone.
+- German numeric gliders `D-2345` read as Angola `D2-345` (Angola's `D2`).
+- Canada's pre-1957 `CF-xxx` series is now written `C-Fxxx`; the two are indistinguishable once the hyphen is stripped, and the modern form is far more common.
+- Y2–Y9 (former East Germany) remain listed under Germany; no real registration uses them.
+
 ## Scope / known limitations
 
 - Only covers general civil registrations (military sub-entries from the
