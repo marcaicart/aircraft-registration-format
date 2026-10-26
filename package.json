@@ -27,6 +27,9 @@
   },
   "homepage": "https://github.com/marcaicart/aircraft-registration-format#readme",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "@types/node": "^26.2.0",
     "csv-parse": "^7.0.2",
